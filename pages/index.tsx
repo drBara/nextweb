@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import { loadComponents } from 'next/dist/server/load-components'
 import Head from 'next/head'
 import Image from 'next/image'
 import Navigation from '../components/Navigation'
@@ -14,8 +15,8 @@ const Home: NextPage = () => {
       <Navigation />
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-      <div className="border-2 border-grey-200">mnau</div>
-      <div className="border-2 border-grey-200">tady bara</div>
+      <div className="border-2 border-yellow-200">mnau</div>
+      <div className="border-2 border-pink-200">tady bara</div>
       </main>
 
       <footer className="flex h-24 w-full items-center justify-center border-t">
