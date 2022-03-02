@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-      <div className="border-2 border-grey-200">ahoj</div>
+      <div className="border-2 border-grey-200">cauu</div>
       <div className="border-2 border-grey-200">tady bara</div>
       </main>
 
